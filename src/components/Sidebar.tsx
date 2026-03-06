@@ -1,4 +1,4 @@
-import { LayoutDashboard, DollarSign, Users, BarChart3, UserCheck, Building2, Send, UsersRound } from "lucide-react";
+import { LayoutDashboard, DollarSign, Users, BarChart3, UserCheck, Building2, Send, UsersRound, Briefcase } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Link, useLocation } from "react-router-dom";
 
@@ -10,6 +10,7 @@ const menuItems = [
   { icon: UserCheck, label: "Leads & CRM", path: "/leads-crm" },
   { icon: Building2, label: "Properties", path: "/properties" },
   { icon: Send, label: "Marketing", path: "/marketing" },
+  { icon: Briefcase, label: "Workspace", path: "/workspace" },
 ];
 
 const Sidebar = () => {
